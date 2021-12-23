@@ -1,0 +1,383 @@
+Item,Price,Type,Date
+Tortillas,1.99,Food,02/02/21
+Salsa,1.5,Food,02/02/21
+Lentil,0.88,Dry Good,02/02/21
+Lentil,0.88,Dry Good,02/02/21
+Jasmine Rice,5.99,Dry Good,02/02/21
+Dill Relish,1.99,Condiment,02/02/21
+Kuner,0.88,Unknown,02/02/21
+Kuner,0.88,Unknown,02/02/21
+Honey,8.99,Condiment,02/02/21
+Peets Coffee,10.99,Dry Good,02/02/21
+Peets Coffee,10.99,Dry Good,02/02/21
+Black Beans,2.99,Canned Good,02/02/21
+Shredded Cheese,2.69,Food,02/02/21
+Hot Dog Buns,2.99,Food,02/02/21
+Roma Tomatoes,1.39,Produce,02/02/21
+Hot Dogs,3.49,Food,02/02/21
+Hot Dogs,3.49,Food,02/02/21
+Habanero Peppers,4.99,Produce,02/02/21
+Onion,0.61,Produce,02/02/21
+Cilantro,0.5,Produce,02/02/21
+Kombucha,3.49,Drink,02/02/21
+Queso,3.5,Condiment,02/05/21
+Tazo Tea,3.89,Dry Good,02/05/21
+Hoagie Rolls,2.99,Food,02/05/21
+Mushrooms,2.69,Produce,02/05/21
+Kombucha,3,Drink,02/05/21
+Bell Pepper,1.69,Produce,02/05/21
+Onion,1.03,Produce,02/05/21
+Fire Wood,11.99,Unknown,02/07/21
+Toilet Paper,4.99,Unknown,02/07/21
+Shaving Cream,1,Unknown,02/07/21
+Scented Candle,7.99,Unknown,02/07/21
+Toothbrush,2.99,Unknown,02/07/21
+Oranges,1.63,Produce,02/07/21
+Kombucha,2.99,Drink,02/07/21
+Lemons,1.98,Produce,02/07/21
+Limes,0.66,Produce,02/07/21
+Spanakopita,9.98,Food,02/09/21
+Mozzarella,8.99,Food,02/09/21
+Tortillas,1.99,Food,02/11/21
+Beans,1.89,Dry Good,02/11/21
+Salsa,3,Condiment,02/11/21
+Queso,3.99,Condiment,02/11/21
+Crumbles,13.47,Food,02/11/21
+Chips,2.99,Food,02/11/21
+Ginger Beer,6.99,Drink,02/13/21
+Firewood,5.99,Unknown,02/13/21
+Peets Coffee,10.99,Dry Good,02/15/21
+Peets Coffee,10.99,Dry Good,02/15/21
+Fire Wood,5.99,Unknown,02/15/21
+Soy Milk,3.29,Drink,02/15/21
+Roma Tomatoes,1.07,Produce,02/15/21
+Onion,0.82,Produce,02/15/21
+Kombucha,3,Drink,02/15/21
+Spinach,3,Produce,02/15/21
+Tortillas,1.99,Food,02/17/21
+Coffee Filter,2.49,Unknown,02/17/21
+Fries,2.29,Food,02/17/21
+Bread,2.99,Food,02/17/21
+Kombucha,3.49,Drink,02/17/21
+Roast beef,13.09,Food,02/17/21
+Salad Bowl,2.5,Food,02/25/21
+Starbucks,2.5,Drink,04/08/21
+Bacon,5.99,Food,04/08/21
+Kombucha,3,Drink,04/08/21
+Spinach,3.34,Produce,04/08/21
+Black Pepper,3.99,Spice,04/11/21
+Ground Pepper,3.99,Spice,04/01/21
+Monster,2,Drink,04/11/21
+Juice,2.29,Drink,04/11/21
+Simply Cranberry,4.29,Drink,04/11/21
+Pizza (Pepperoni),7.49,Food,04/11/21
+Draino,5.99,Unknown,04/11/21
+Starbucks,2.5,Drink,04/12/21
+Tea,3.89,Dry Good,04/12/21
+Granola,4.99,Food,04/12/21
+Milk,1.99,Drink,04/12/21
+Chicken Breast,7.41,Food,04/12/21
+Cauliflower,3.2,Produce,04/12/21
+Raspberries,3.99,Produce,04/12/21
+Blueberries,2.99,Produce,04/12/21
+Starbucks,2.99,Drink,04/14/21
+Flour,4.59,Dry Good,04/14/21
+Tomato Sauce,0.89,Canned Good,04/14/21
+Salt,0.99,Spice,04/14/21
+Tomato Canned,1.98,Canned Good,04/14/21
+White Chocolate Chips,4.29,Dry Good,04/14/21
+Eggs,3.99,Food,04/14/21
+Cheddar Cheese,2.69,Food,04/14/21
+Butter,3.49,Food,04/14/21
+Mozzarella,2.99,Food,04/14/21
+Baguette,2.99,Food,04/14/21
+Chicken Drumsticks,2.78,Food,04/14/21
+Queso,3.99,Food,04/14/21
+Bell Pepper,1.77,Produce,04/14/21
+Roma Tomatoes,1.35,Produce,04/14/21
+Yellow Onions,1.45,Produce,04/14/21
+Spinach,3.49,Produce,04/14/21
+Tortilla Chips,2.99,Food,04/14/21
+Goat Cheese,6.99,Food,04/14/21
+Feta Cheese,4.99,Food,04/14/21
+Starbucks,2.99,Drink,04/19/21
+Tortillas,2.59,Food,04/19/21
+Refried Beans,1.89,Canned Good,04/19/21
+Starbucks,2.99,Drink,04/29/21
+Ramen,1,Dry Good,04/29/21
+Crystal Light,2.99,Drink,04/29/21
+Bamboo Shoot,1.69,Canned Good,04/29/21
+Honey,8.99,Condiment,04/29/21
+Peets Coffee,7.99,Dry Good,04/29/21
+Tazo Tea,3.99,Dry Good,04/29/21
+Tazo Tea,3.99,Dry Good,04/29/21
+Tazo Tea,3.99,Dry Good,04/29/21
+Nori,4.79,Dry Good,04/29/21
+Granola,4.99,Dry Good,04/29/21
+Eggs,3.99,Produce,04/29/21
+Milk,1.99,Drink,04/29/21
+Frozen Veggies,3.18,Produce,04/29/21
+Frozen Veggies,3.18,Produce,04/29/21
+Frozen Veggies,3.18,Produce,04/29/21
+Pie Crust,3.99,Misc,04/29/21
+Greek Yoghurt,3.79,Misc,04/29/21
+French Rolls,3.99,Dry Good,04/29/21
+French Bread,2.99,Dry Good,04/29/21
+French Bread,2.99,Dry Good,04/29/21
+Pork Loin,8.68,Food,04/29/21
+Chicken Breast,9.12,Food,04/29/21
+Green Chili Tamales,7.49,Misc,04/29/21
+Mushrooms,2.69,Produce,04/29/21
+Roma Tomatoes,1.26,Produce,04/29/21
+Lightlife Hotdogs,9.58,Food,04/29/21
+Bok Choy,1.35,Produce,04/29/21
+Onion,1,Produce,04/29/21
+Raspberries,3.99,Produce,04/29/21
+Blackberries,3.99,Produce,04/29/21
+Blueberries,3.49,Produce,04/29/21
+Spinach,3.49,Produce,04/29/21
+Green Onions,0.69,Produce,04/29/21
+Mozzarella,4.99,Food,04/29/21
+Feta Cheese,7.49,Food,04/29/21
+Dill Relish,1.99,Food,04/29/21
+Firestart,2.79,Misc,04/29/21
+Shredded Cheese,7.99,Food,04/29/21
+Buffalo Chicken,21.98,Food,05/13/21
+Vine Ripe Tomatoes,0.83,Produce,05/13/21
+Romaine Lettuce,1.29,Produce,05/13/21
+Kombucha,3,Drink,05/13/21
+Starbucks,2.99,Drink,05/13/21
+Refried Beans,1.89,Canned Good,05/13/21
+Roma Tomatoes,1.25,Produce,05/13/21
+Tofu Taco,8.98,Food,05/13/21
+Onion,0.6,Produce,05/13/21
+Tortilla Chips,2.99,Dry Good,05/13/21
+Shredded Cheese,2.49,Produce,05/13/21
+Soy Milk,3.29,Drink,05/13/21
+Starbucks,2.99,Drink,05/22/21
+Potato Chips,3,Dry Good,05/22/21
+Tortillas,2.59,Dry Good,05/25/21
+Salsa,4,Sauce,05/25/21
+Peets Coffee,7.99,Dry Good,05/25/21
+Shredded Cheese,4.49,Dairy,05/25/21
+Mushrooms,2.69,Produce,05/25/21
+Bell Pepper,3,Produce,05/25/21
+Onion,0.63,Produce,05/25/21
+Vine Ripe Tomatoes,2.91,Produce,05/25/21
+Kombucha,3,Drink,05/25/21
+Peets Coffee,14.99,Dry Good,05/28/21
+Tazo Tea,3.89,Dry Good,05/28/21
+Tazo Tea,3.89,Dry Good,05/28/21
+Granola,4.99,Dry Good,05/28/21
+Body Wash,6.49,Misc,05/28/21
+Body Lotion,10.99,Misc,05/28/21
+Chicken Drumsticks,6.41,Food,05/28/21
+Kombucha,3.49,Drink,05/28/21
+Blackberries,3.99,Produce,05/28/21
+Baby Spinach,3.49,Produce,05/28/21
+Lemon Juice,2.99,Misc,05/28/21
+Corn Flour,2.49,Dry Good,05/28/21
+Crisco,3.99,Misc,05/28/21
+Corn Husks,5.49,Misc,05/28/21
+Sour Cream,1.29,Condiment,05/28/21
+Chicken Breast,10.05,Food,05/28/21
+Onion,0.6,Produce,05/28/21
+Tomato,2,Produce,05/28/21
+Popcorn,3.99,Dry Good,06/02/21
+Cheez Its,5.49,Dry Good,06/02/21
+Crystal Light,5,Misc,06/02/21
+Tazo Tea,3.49,Dry Good,06/02/21
+Tazo Tea,3.49,Dry Good,06/02/21
+Paper Towels,3.49,Misc,06/02/21
+Bread Crumbs,3.19,Dry Good,06/05/21
+Bread Crumbs,2.19,Dry Good,06/05/21
+Chocolate Chips,3.49,Dry Good,06/05/21
+Shredded Cheese,1.99,Food,06/05/21
+Soy Milk,3.29,Food,06/05/21
+Hamburger Buns,4.49,Dry Good,06/05/21
+Chicken Breast,9.33,Food,06/05/21
+Tomato,5.89,Produce,06/05/21
+Lemons,0.99,Produce,06/05/21
+Kombucha,3.49,Drink,06/05/21
+Mozzarella,8.99,Food,06/05/21
+Peanuts,2,Dry Good,06/10/21
+Olive Oil,10.99,Misc,06/10/21
+Granola,4.99,Dry Good,06/10/21
+Eggs,7.49,Food,06/10/21
+Ice Cream Sandwich,3.99,Misc,06/10/21
+Greek Yoghurt,2.5,Food,06/10/21
+Ground Chicken,3.49,Food,06/10/21
+Ground Chicken,6.96,Food,06/10/21
+Mushrooms,6.84,Produce,06/10/21
+Tomato,2.69,Produce,06/10/21
+Bell Pepper,2.59,Produce,06/10/21
+Onion,0.89,Produce,06/10/21
+Kombucha,3.49,Drink,06/10/21
+Tortillas,1.99,Dry Good,06/15/21
+Refried Beans,1.89,Canned Good,06/15/21
+Salsa,4.99,Condiment,06/15/21
+Monster,2,Drink,06/15/21
+Shredded Cheese,2.5,Food,06/15/21
+Digiorno,4.99,Misc,06/15/21
+Ground Chicken,5.98,Food,06/15/21
+Chicken Breast,12.42,Food,06/15/21
+Meatless Crumbles,4.49,Food,06/15/21
+Peets Coffee,14.99,Dry Good,06/15/21
+Sleeping Pills,12.49,Misc,06/15/21
+Pesto,2.99,Condiment,06/18/21
+Contadina,2.98,Misc,06/18/21
+Mcormick Seasoning,1,Misc,06/18/21
+Digiorno,5.49,Misc,06/18/21
+Onion,3.99,Produce,06/18/21
+Eggplant,0.51,Produce,06/18/21
+Bell Pepper,1.69,Produce,06/18/21
+Kombucha,0.89,Drink,06/18/21
+Bell Pepper,3.29,Produce,06/18/21
+Father's Day Card,1.5,Misc,06/18/21
+Crystal Light,2.99,Dry Good,06/20/21
+Crystal Light,2.99,Dry Good,06/20/21
+Monster,2,Drink,06/20/21
+Ginger Beer,5.99,Drink,06/20/21
+Mustard,2.49,Condiment,06/22/21
+Bread,7.18,Dry Good,06/22/21
+Bacon,5.99,Food,06/22/21
+Kombucha,3.49,Drink,06/22/21
+Baby Spinach,3.49,Produce,06/22/21
+Salami,6.99,Food,06/22/21
+Tortillas,1.99,Dry Good,06/28/21
+Salsa,4.99,Condiment,06/28/21
+Ground Chicken,7.01,Food,06/28/21
+Ground Chicken,6.98,Food,06/28/21
+Queso,3.99,Condiment,06/28/21
+Onion,0.49,Produce,06/28/21
+Tomato,3.6,Produce,06/28/21
+Serrano Peppers,0.08,Produce,06/28/21
+Refried Beans,1.89,Canned Good,06/28/21
+Monster,2,Drink,06/28/21
+Artichokes,8.97,Canned Good,07/11/21
+Toilet Paper,8.99,Misc,07/11/21
+Spinach,3.49,Produce,07/11/21
+Rosemary,3.99,Spice,07/14/21
+Chicken Breast,9.28,Food,07/14/21
+Broccoli,1.4,Produce,07/14/21
+Kombucha,3.49,Drink,07/14/21
+Mozzarella,1.99,Dairy,07/17/21
+Ciabatta,3.99,Dry Good,07/17/21
+Mushrooms,5.38,Produce,07/17/21
+Onion,0.99,Produce,07/17/21
+Bell Pepper,0.99,Produce,07/17/21
+Kombucha,3.49,Drink,07/17/21
+Crystal Light,2.99,Dry Good,07/20/21
+Crystal Light,2.99,Dry Good,07/20/21
+Pickles,3.49,Canned Good,07/20/21
+Kombucha,3.49,Drink,07/20/21
+Roast beef,14.62,Food,07/20/21
+Tortillas,1.99,Dry Good,07/29/21
+Eggs,3.99,Dry Good,07/29/21
+Sandwich Buns,2.99,Dry Good,07/29/21
+Chicken Breast,6.79,Food,07/29/21
+Chicken Breast,7.12,Food,07/29/21
+Chicken Tenders,8.49,Food,07/29/21
+Tomato,2.37,Produce,07/29/21
+Kombucha,3.49,Drink,07/29/21
+Spinach,3.49,Produce,07/29/21
+Coffee,15.98,Dry Good,08/18/21
+Oat Milk,3.99,Drink,08/18/21
+Mucinex,15.99,Medicine,08/18/21
+Stuffed Mushrooms,5,Produce,08/18/21
+Kombucha,3.49,Drink,08/18/21
+Vegetable Oil,3.99,Misc,09/08/21
+Kettle Chips,3,Dry Good,09/08/21
+Sriracha,5.99,Condiment,09/08/21
+Bell Pepper,4,Produce,09/08/21
+Bell Pepper,2.5,Produce,09/08/21
+Onion,0.82,Produce,09/08/21
+Garlic,1.25,Produce,09/08/21
+Goat Cheese,7.99,Misc,09/08/21
+Crackers,6.99,Dry Good,09/08/21
+Diced Tomato,1.78,Canned Good,09/12/21
+Stewed Tomato,0.89,Canned Good,09/12/21
+Vinegar,4.49,Misc,09/12/21
+Butter,4.99,Dairy,09/12/21
+Tofurky,7,Misc,09/12/21
+Jalapeno,0.14,Produce,09/12/21
+Ketchup,2.79,Condiment,09/14/21
+Lemon Juice,3.89,Misc,09/14/21
+Mustard,3.49,Condiment,09/14/21
+Crystal Light,3.99,Dry Good,09/14/21
+Cumin,5.99,Spice,09/14/21
+Red Bull,3.19,Drink,09/14/21
+Granola,5.59,Dry Good,09/14/21
+Yoghurt,1.99,Dairy,09/14/21
+Eggs,3.79,Produce,09/14/21
+Listerine,10.49,Medicine,09/14/21
+Bread,5.49,Dry Good,09/14/21
+Ground Chicken,3.99,Meat,09/14/21
+Bacon,7.29,Meat,09/14/21
+Feta Cheese,7.99,Produce,09/14/21
+Dill Pickles,2.69,Canned Good,09/20/21
+Crystal Light,3.99,Dry Good,09/20/21
+Hot Salsa,5.39,Canned Good,09/20/21
+Tortilla,4.29,Dry Good,09/20/21
+Shredded Cheese,7.99,Produce,09/20/21
+Potato,2.99,Produce,09/20/21
+Sourdough,5.49,Dry Good,09/20/21
+Tomato,2.66,Produce,09/20/21
+Lemons,1.25,Produce,09/20/21
+Mushrooms,2.5,Produce,09/20/21
+Baby Spinach,7.98,Produce,09/20/21
+Blackberries,3.99,Produce,09/20/21
+Digiorno,16.58,Frozen Good,09/27/21
+Eggs,2.69,Produce,09/27/21
+Shredded Cheese,4.49,Produce,09/27/21
+Bread,5.49,Dry Good,09/27/21
+Green Onions,1.25,Produce,09/27/21
+Portabello Mushrooms,5.97,Produce,09/27/21
+Tomato,3.64,Produce,09/27/21
+Jalapeno,0.19,Produce,09/27/21
+Potato,1.74,Produce,09/27/21
+Stewed Tomato,1.78,Canned Good,09/29/21
+Tomato Sauce,0.98,Canned Good,09/29/21
+Crystal Light,7.98,Dry Good,09/29/21
+Honey,8.49,Dry Good,09/29/21
+Tea,4.29,Dry Good,09/29/21
+Tea,4.29,Dry Good,09/29/21
+Kettle Chips,3.59,Dry Good,09/29/21
+Granola,5.59,Dry Good,09/29/21
+Yoghurt,1.99,Produce,09/29/21
+Toothpaste,5.99,Medicine,09/29/21
+Cauliflower,3.31,Produce,09/29/21
+Lemons,1.25,Produce,09/29/21
+Blackberries,3.99,Produce,09/29/21
+Kidney Beans,1.98,Canned Good,10/04/21
+Kettle Chips,3.59,Dry Good,10/04/21
+Shredded Cheese,3.99,Dairy,10/04/21
+Mushrooms,2.5,Produce,10/04/21
+Peanut Oil,19.99,Dry Good,10/11/21
+Oat Milk,3.5,Dairy,10/11/21
+Chicken Breast,12.29,Meat,10/11/21
+Onion,2.06,Produce,10/11/21
+Tomato,4.9,Produce,10/11/21
+Tortilla,5.38,Dry Good,10/12/21
+Corn Tortilla,2.99,Dry Good,10/12/21
+Shredded Cheese,8.99,Dairy,10/12/21
+Queso Fresco,3.99,Dairy,10/12/21
+Mushrooms,2.99,Produce,10/12/21
+Bell Pepper,3.75,Produce,10/12/21
+Jalapeno,0.32,Produce,10/12/21
+Tomato,6.46,Produce,10/12/21
+Tomatillo,8.06,Produce,10/12/21
+Tortilla,2.99,Dry Good,10/25/21
+Artichokes,6.98,Canned Good,10/25/21
+Red Pepper,3.01,Spice,10/25/21
+Tazo Tea,3.79,Dry Good,10/25/21
+Tazo Tea,5.29,Dry Good,10/25/21
+Chicken Breast,8.86,Meat,10/25/21
+Chicken Breast,9.31,Meat,10/25/21
+Portabello Mushrooms,6.83,Produce,10/25/21
+Jalapeno,0.16,Produce,10/25/21
+Tomato,7.59,Produce,10/25/21
+Kombucha,3,Drink,10/25/21
+Cauliflower,2.85,Produce,10/25/21
+Blueberries,4.99,Produce,10/25/21
+Spinach,3.99,Produce,10/25/21
