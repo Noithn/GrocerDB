@@ -3,28 +3,15 @@ import pandas as pd
 
 #This is for the UI
 import PyQt5
-from PyQt5 import QtCore, QtWidgets, QtGui
-from PyQt5.QtCore import Qt, QLine, QSize
-from PyQt5.QtWidgets import (
-    QAbstractItemView,
-    QComboBox,
-    QDialog,
-    QDialogButtonBox,
-    QFormLayout,
-    QPushButton,
-    QTableView,
-    QHBoxLayout,
-    QLineEdit,
-    QMainWindow,
-    QMessageBox, 
-    QLabel, 
-    QGridLayout,
-    QVBoxLayout, 
-    QWidget, 
-    QApplication,
-    )
+from PyQt5 import QtCore, QtWidgets
+from PyQt5.QtCore import *
+from PyQt5.QtWidgets import *
+from soupsieve import select
 from model import GroceryModel
-from GDB import itemSelectorSort
+from GDB import itemSelectorSort, graphing
+selected_item = []
+endDate = []
+startDate = []
 class Window(QMainWindow):
     """Main Window"""
     def __init__(self, parent=None):
@@ -45,40 +32,57 @@ class Window(QMainWindow):
         self.table.setModel(self.GroceryModel.model)
         self.table.setSelectionBehavior(QAbstractItemView.SelectRows)
         self.table.resizeColumnsToContents()
+        self.fileButton = QPushButton("Import Grocery File")
+        ###self.addButton.clicked.connect(self.addFile)
         self.addButton = QPushButton("Add...")
         self.addButton.clicked.connect(self.openAddDialog)
         self.deleteButton = QPushButton("Delete...")
         self.deleteButton.clicked.connect(self.deleteGrocery)
-        #Calendar Select
-        self.dateedit = QtWidgets.QDateEdit(calendarPopup=True)
-        self.dateedit.setDateTime(QtCore.QDateTime.currentDateTime())
-        self.dateedit2 = QtWidgets.QDateEdit(calendarPopup=True)
-        self.dateedit2.setDateTime(QtCore.QDateTime.currentDateTime())
+        self.goButton = QPushButton("Show Graph")
+        self.goButton.clicked.connect(lambda: graphing(selected_item, startDate, endDate))
+        #Show Graph button call.
+        # self.goButton.clicked.connect(self.showGraph)
+        #Calendar Start
+        self.dateEdit = QDateEdit(self)
+        self.dateEdit.setDateTime(QtCore.QDateTime.currentDateTime())
+        self.dateEdit.setCalendarPopup(True)
+        self.dateEdit.dateChanged.connect(self.onSelectStart)
+        #self.dateEdit.dateChanged.connect(QtWidgets.QDateEdit.lineEdit(lambda: dateStart))
+        #self.dateEdit.dateChanged.connect(l)
+        #self.qDate = self.dateEdit.setDateTime(QtCore.QDateTime.)
+        #print(self.qDate)
+        #self.dateEdit.dateChanged.connect(lambda: print(self.dateEdit.setDateTime(QtCore.QDateTime.)))
+        #Calendar End
+        self.dateEdit2 = QDateEdit(self)
+        self.dateEdit2.setDateTime(QtCore.QDateTime.currentDateTime())
+        self.dateEdit2.setCalendarPopup(True)
+        self.dateEdit2.dateChanged.connect(self.onSelectEnd)
         #self.clearAllButton = QPushButton("Clear All")
         #Dropdown Select
         self.cb = QComboBox()
         self.cb.addItem("All")
         self.cb.addItems(itemSelectorSort)
-        self.cb.currentIndexChanged.connect(self.select)
+        self.cb.currentTextChanged.connect(self.selectedItem)
         #Layouts
         layout = QVBoxLayout()
+        layout.addWidget(self.fileButton)
         layout.addWidget(self.addButton)
         layout.addWidget(self.deleteButton)
         layout.addWidget(self.cb)
-        layout.addWidget(self.dateedit)
-        layout.addWidget(self.dateedit2)
+        layout.addWidget(self.dateEdit)
+        layout.addWidget(self.dateEdit2)
+        layout.addWidget(self.goButton)
         layout.addStretch()
         #layout.addWidget(self.clearAllButton)
         self.layout.addWidget(self.table)
         self.layout.addLayout(layout)
-
+    
     def openAddDialog(self):
-        """OPening Add dialog"""
+        """Opening Add dialog"""
         dialog = AddDialog(self)
         if dialog.exec() == QDialog.Accepted:
             self.GroceryModel.addGrocery(dialog.data)
             self.table.resizeColumnsToContents()
-
     def deleteGrocery(self):
         row = self.table.currentIndex().row()
         if row < 0:
@@ -92,14 +96,30 @@ class Window(QMainWindow):
         if messageBox == QMessageBox.Ok:
             self.GroceryModel.deleteGrocery(row)
 
-    def select(self,i):
-        """Selecting item dropdown"""
-        print("Items in the list are :")
-		
-        for count in range(self.cb.count()):
-            print(self.cb.itemText(count))
-        print("Current index",i,"selection changed ",self.cb.currentText())
+    #Item Selection
+    def selectedItem(self,itemSelected):
+        # """Selecting item dropdown"""
+        selected_item.clear()
+        itemSelected = self.cb.currentText()
+        selected_item.append(itemSelected)
+        #print(str(selected_item).replace("'", ''))
+        return(str(selected_item[0]).replace("'", ''))
 
+    #Start Date Selection
+    def onSelectStart(self, Date):
+        startDate.clear()
+        startDateSelect = '{0}/{1}/{2}'.format(Date.year(), Date.month(), Date.day())
+        startDate.append(startDateSelect)
+        print(str(startDate[0]))
+        return(startDate[0])
+
+    #End Date Selection
+    def onSelectEnd(self, Date):
+        endDate.clear()
+        endDateSelect = '{0}/{1}/{2}'.format(Date.year(), Date.month(), Date.day())
+        endDate.append(endDateSelect)
+        print(str(endDate[0]))
+        return(endDate)
 class AddDialog(QDialog):
     """Adding Groceries"""
     def __init__(self, parent=None):
@@ -114,8 +134,6 @@ class AddDialog(QDialog):
     def setupUI(self):
         """Dialog GUI"""
         #Line edits
-        #self.keyField = QLineEdit()
-        #self.keyField.setObjectName("Key")
         self.itemField = QLineEdit()
         self.itemField.setObjectName("Item")
         self.priceField = QLineEdit()
@@ -126,7 +144,6 @@ class AddDialog(QDialog):
         self.dateField.setObjectName("Date")
         #Layout of fields
         layout = QFormLayout()
-        #layout.addRow("Key:", self.keyField)
         layout.addRow("Item:", self.itemField)
         layout.addRow("Price:", self.priceField)
         layout.addRow("Type:", self.typeField)
@@ -141,7 +158,6 @@ class AddDialog(QDialog):
         self.buttonsBox.accepted.connect(self.accept)
         self.buttonsBox.rejected.connect(self.reject)
         self.layout.addWidget(self.buttonsBox)
-
     def accept(self):
         """Accepting data through input"""
         self.data = []

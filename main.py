@@ -9,6 +9,7 @@ from views import Window
 
 def main():
     app = QApplication(sys.argv)
+    app.setApplicationName('Groceries Graphing')
     if not createConnection("groceries.sqlite"):
         sys.ext(1)
     win = Window()
